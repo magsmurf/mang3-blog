@@ -1,0 +1,15 @@
+baseURL: 'https://magsmurf.github.io/mang3-blog/'
+languageCode: en-us
+paginate: 5
+title: mang3's blog
+enableEmoji: true
+theme: PaperMod
+menu:
+  main:
+    - name: main
+      url: /
+      weight: -110
+    - identifier: about
+      name: about
+      url: /about/
+      weight: -100
