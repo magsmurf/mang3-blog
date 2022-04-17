@@ -1,4 +1,4 @@
-baseURL: 'https://magsmurf.github.io/mang3-blog/'
+baseURL: 'https://mang3.net/'
 languageCode: en-us
 paginate: 5
 title: mang3's blog
@@ -9,7 +9,16 @@ menu:
     - name: main
       url: /
       weight: -110
-    - identifier: about
-      name: about
-      url: /about/
+    - identifier: search 
+      name: search 
+      url: /search/
       weight: -100
+params:
+    homeInfoParams:
+        Title: welcome to mang3's blog
+        Content: this is my blog. it contains opinions, thoughts and ideas.
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
